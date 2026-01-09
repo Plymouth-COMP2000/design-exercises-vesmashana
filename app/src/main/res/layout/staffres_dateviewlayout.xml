@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textView92"
+        android:layout_width="88dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="28dp"
+        android:text="Andy"
+        android:textAppearance="@android:style/TextAppearance.Material.Large"
+        android:textColor="#050505"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button18"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView91"
+        android:layout_width="88dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:text="Andy"
+        android:textAppearance="@android:style/TextAppearance.Material.Large"
+        android:textColor="#050505"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/button18"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button18"
+        android:layout_width="81dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="5dp"
+        android:text="Delete"
+        android:textColor="#F80202"
+        android:textSize="10sp"
+        app:backgroundTint="#FBF8F8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:strokeColor="#F60202"
+        app:strokeWidth="2dp" />
+
+    <TextView
+        android:id="@+id/textView88"
+        android:layout_width="51dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="5 people"
+        android:textAppearance="@android:style/TextAppearance.Material.Large"
+        android:textColor="#050505"
+        app:layout_constraintStart_toEndOf="@+id/textView86"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView86"
+        android:layout_width="80dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Andy"
+        android:textAppearance="@android:style/TextAppearance.Material.Large"
+        android:textColor="#050505"
+        app:layout_constraintStart_toEndOf="@+id/textView92"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

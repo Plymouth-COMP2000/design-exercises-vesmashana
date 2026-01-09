@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/fragmentMonday">
+
+    <fragment
+        android:id="@+id/fragmentMonday"
+        android:name="com.example.myapplication.ui.fragments.FragmentMonday"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_monday" />
+</navigation>
